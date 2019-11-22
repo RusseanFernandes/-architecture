@@ -1,5 +1,5 @@
 package hotel;
 
-public class Pessoa {
+public class Classe {
 
 }

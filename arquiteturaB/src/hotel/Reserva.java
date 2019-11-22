@@ -1,5 +1,5 @@
 package hotel;
 
-public class EfetuarCheckin {
+public class Reserva {
 
 }

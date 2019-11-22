@@ -1,5 +1,5 @@
 package hotel;
 
-public class ManterReseva {
+public class Hotel {
 
 }

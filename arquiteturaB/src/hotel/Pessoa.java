@@ -1,5 +1,5 @@
 package hotel;
 
-public class ManterHospede {
+public class Pessoa {
 
 }

@@ -6,10 +6,14 @@ import java.util.Date;
 import hotel.Cliente;
 
 public class FachadaLocadora implements IFachada {
-
+	private RepositorioCliente repositorioCliente;
+	private RepositorioVeiculo repositorioVeiculo;
+	
 	@Override
 	public Cliente cadastratCliente(String nome, String endereco, String cpf, Date dataNascimento) {
-		return null;
+		Cliente cliente = new Cliente();
+		repositorioCliente.cadastrarCliente(cliente);
+		return cliente;
 	}
 
 	@Override

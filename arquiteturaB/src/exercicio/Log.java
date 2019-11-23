@@ -27,7 +27,7 @@ public class log {
 		
 		log.getTexto.add("Log1");	
 		log.getTextos.add("Log2");
-		log.gettextos.add("Log3");
+		log.gettextos.add("Log4");
 		}	
 	
 	

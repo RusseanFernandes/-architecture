@@ -3,7 +3,7 @@ package exercicio;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class log {
+public class Log {
 	private Collection<String> textos;
 
 	public Collection<String> getTexto() {
@@ -16,7 +16,7 @@ public class log {
 	
 	public static void main(String[] args) {
 		Log log = new Log();
-		log.setTextos(new ArrayList<String>());
+		log.setTexto(new ArrayList<String>());
 		
 		log.getTexto.add("Log1");	
 		log.getTextos.add("Log2");

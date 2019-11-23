@@ -1,5 +1,8 @@
 package exercicioBridge;
 
-public class Color {
+public abstract class Color {
 
+	public void paint(Shape shape) {
+		
+	}
 }

@@ -1,6 +1,20 @@
 package exercicioBridge;
 
 public abstract class Shape {
- public abstract void render();
- 
+	private Color color;
+
+	public Color getColor() {
+		return color;
+	}
+
+	public void setColor(Color color) {
+		this.color = color;
+	}
+
+	public void render() {
+		this.draw();
+		this.color.paint(this);
+	}
+
+	public abstract void draw();
 }

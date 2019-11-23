@@ -31,10 +31,9 @@ public class LogSingleton {
 		LogSingleton log = LogSingleton.getInstance();
 		log.setTextos(new ArrayList<String>());
 		
-		log.getTextos.add("Log1");	
-		log.getTextos.add("Log2");
-		log.getTextos.add("Log3");
-		
+		log.getTextos().add("Log1");	
+		log.getTextos().add("Log2");
+		log.getTextos().add("Log3");		
 
 		}		
 	

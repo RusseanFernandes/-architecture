@@ -5,6 +5,7 @@ import java.util.Collection;
 
 public class Log {
 	private Collection<String> textos;
+	private Object getTexto;
 
 	public Collection<String> getTexto() {
 		return textos;
@@ -18,19 +19,17 @@ public class Log {
 		Log log = new Log();
 		log.setTexto(new ArrayList<String>());
 		
-		log.getTexto.add("Log1");	
-		log.getTextos.add("Log2");
-		log.gettextos.add("Log3");
+		log.getTexto().add("Log1");	
+		log.getTexto().add("Log2");
+		log.getTexto().add("Log3");
 		
 		Log log2 = new Log();
-		log.setTextos(new ArrayList<String>());
+		log2.setTexto(new ArrayList<String>());
 		
-		log.getTexto.add("Log1");	
-		log.getTextos.add("Log2");
-		log.gettextos.add("Log4");
+		log2.getTexto().add("Log1");	
+		log2.getTexto().add("Log2");
+		log2.getTexto().add("Log4");
 		}	
-	
-	
-	}
+
 	
 }

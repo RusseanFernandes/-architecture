@@ -40,7 +40,7 @@ public class LogSingleton {
 		
 		log2.getTextos.add("Log4");	
 		log2.getTextos.add("Log5");
-		log2.gettextos.add("Log6");
+		log2.gettextos.add("Log61");
 		}	
 	
 	

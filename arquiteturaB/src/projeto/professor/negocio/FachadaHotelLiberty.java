@@ -1,4 +1,4 @@
-package projeto.professor;
+package projeto.professor.negocio;
 
 public class FachadaHotelLiberty implements IFachada{
 	private RepositorioHotel repositorioHotel;

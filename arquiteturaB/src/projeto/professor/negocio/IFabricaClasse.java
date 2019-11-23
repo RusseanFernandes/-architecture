@@ -1,4 +1,4 @@
-package projeto.professor;
+package projeto.professor.negocio;
 
 public interface IFabricaClasse {
 	public Hotel criarHotel(String nome, String endereco);

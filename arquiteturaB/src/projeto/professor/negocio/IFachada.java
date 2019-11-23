@@ -1,4 +1,4 @@
-package projeto.professor;
+package projeto.professor.negocio;
 
 public interface IFachada {
 	public Hotel cadastrarHotel(String nome, String endereco, EnumClasseHotel classeHotel) ;
